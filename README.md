@@ -1,10 +1,12 @@
+# Predicting Genre from Song Lyrics
+
 #### Project Goal
 
-Use several unsupervised learning approaches to attempt to predict the genre of a song from its lyrics. The eventual goal is to produce a consistent, working model that can then be applied in a variety of ways. Labeling each artist's genre by hand is very tedious, so any automation would save time and effort.
+Use several unsupervised learning approaches to attempt to predict the genre of a song from its lyrics. Labeling each artist's genre by hand is very tedious, so any automation would save time and effort.
 
 #### Implementation and Training
 
-I applied both TFIDF and CountVectorizer natural language processing techniques to create feature spaces out of a corpus of song lyrics. I then used K-Means, Mean Shift, and Spectral Clustering to try to detect any underlying patterns to the lyrics.
+I applied both TFIDF and CountVectorizer natural language processing techniques to create feature spaces out of a corpus of song lyrics. I then used K-Means, Mean Shift, and Spectral Clustering to try to detect underlying patterns to the lyrics.
 
 In an attempt to find a technique better suited for the sparse data, I implemented Latent Dirichlet allocation and Non-negative Matrix Factorization. Using pyLDAvis, I visualized the topics.
 
