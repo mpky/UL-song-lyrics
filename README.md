@@ -4,6 +4,10 @@
 
 Use several unsupervised learning approaches to attempt to predict the genre of a song from its lyrics. Labeling each artist's genre by hand is very tedious, so any automation would save time and effort.
 
+#### Data
+
+The original data is sourced from (this)[https://www.kaggle.com/mousehead/songlyrics] Kaggle. Lyrics are originally from LyricsFreak.
+
 #### Implementation and Training
 
 I applied both TFIDF and CountVectorizer natural language processing techniques to create feature spaces out of a corpus of song lyrics. I then used K-Means, Mean Shift, and Spectral Clustering to try to detect underlying patterns to the lyrics.
