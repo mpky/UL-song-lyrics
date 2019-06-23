@@ -6,7 +6,7 @@ Use several unsupervised learning approaches to attempt to predict the genre of 
 
 #### Data
 
-The original data is sourced from (this)[https://www.kaggle.com/mousehead/songlyrics] Kaggle. Lyrics are originally from LyricsFreak.
+The original data is sourced from [this](https://www.kaggle.com/mousehead/songlyrics) Kaggle. Lyrics are originally from LyricsFreak.
 
 #### Implementation and Training
 
