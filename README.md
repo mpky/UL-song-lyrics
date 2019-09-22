@@ -18,8 +18,15 @@ In the last section, I used supervised models to determine to what extent the mo
 
 #### Results
 
-- None of the initial unsupervised approaches surfaced any distinct clusters.
+- None of the initial unsupervised approaches surfaced any distinct clusters. The silhoutte score for 7 distinct clusters is very low, meaning we do not have distinct clusters.
+
+![7clusters](https://user-images.githubusercontent.com/31871105/65381801-31e16080-dcc6-11e9-8fa2-1edf4b15a3be.png)
+
 - While the pyLDAvis did display seven distinct topics, they do not appear to fit with the seven different genres.
+
+<img width="1092" alt="pylda" src="https://user-images.githubusercontent.com/31871105/65381822-c64bc300-dcc6-11e9-9949-c2d39c180c4e.png">
+
+
 - Similarly, NMF was not able to match the seven topics to the seven genres.
 - I was surprised to see that each of the supervised approaches performed well above the baseline in predicting genre.
 
